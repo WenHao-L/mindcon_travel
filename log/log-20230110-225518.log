@@ -1,0 +1,908 @@
+===================== 划分训练集和验证集 =====================
+== 验证集百分比:  0.1
+========================= 划分完成！ =========================
+step_size: 52
+Image shape: (64, 3, 224, 224) , Label shape: (64, 54)
+Image type: Float32 , Label type: Float32
+[WARNING] ME(18825:281473316612800,MainProcess):2023-01-10-22:55:18.662.025 [mindspore/context.py:920] For 'context.set_context', 'enable_auto_mixed_precision' parameter is deprecated. For details, please see the interface parameter API comments
+[WARNING] ME(18825:281473316612800,MainProcess):2023-01-10-22:55:28.351.566 [mindspore/train/model.py:1077] For EvaluateCallBack callback, {'epoch_end'} methods may not be supported in later version, Use methods prefixed with 'on_train' or 'on_eval' instead when using customized callbacks.
+Epoch:[  0/300], step:[   52/   52], loss:[3.711/3.859], time:154.704 ms, lr:0.00100
+Epoch time: 107806.471 ms, per step time: 2073.201 ms, avg loss: 3.859
+ckpt_0 | epoch: 1 acc: 0.11458333333333333, best acc is 0.11458333333333333
+Epoch:[  1/300], step:[   52/   52], loss:[3.755/3.673], time:137.814 ms, lr:0.00100
+Epoch time: 24380.967 ms, per step time: 468.865 ms, avg loss: 3.673
+ckpt_0 | epoch: 2 acc: 0.15104166666666666, best acc is 0.15104166666666666
+Epoch:[  2/300], step:[   52/   52], loss:[3.689/3.558], time:128.852 ms, lr:0.00100
+Epoch time: 24092.629 ms, per step time: 463.320 ms, avg loss: 3.558
+ckpt_0 | epoch: 3 acc: 0.109375, best acc is 0.15104166666666666
+Epoch:[  3/300], step:[   52/   52], loss:[3.655/3.485], time:124.294 ms, lr:0.00100
+Epoch time: 27813.794 ms, per step time: 534.881 ms, avg loss: 3.485
+ckpt_0 | epoch: 4 acc: 0.2604166666666667, best acc is 0.2604166666666667
+Epoch:[  4/300], step:[   52/   52], loss:[3.447/3.399], time:128.843 ms, lr:0.00100
+Epoch time: 24045.342 ms, per step time: 462.410 ms, avg loss: 3.399
+ckpt_0 | epoch: 5 acc: 0.2864583333333333, best acc is 0.2864583333333333
+Epoch:[  5/300], step:[   52/   52], loss:[3.374/3.316], time:137.124 ms, lr:0.00100
+Epoch time: 23247.135 ms, per step time: 447.060 ms, avg loss: 3.316
+ckpt_0 | epoch: 6 acc: 0.3463541666666667, best acc is 0.3463541666666667
+Epoch:[  6/300], step:[   52/   52], loss:[3.310/3.265], time:166.007 ms, lr:0.00100
+Epoch time: 24351.277 ms, per step time: 468.294 ms, avg loss: 3.265
+ckpt_0 | epoch: 7 acc: 0.3776041666666667, best acc is 0.3776041666666667
+Epoch:[  7/300], step:[   52/   52], loss:[3.501/3.199], time:136.392 ms, lr:0.00100
+Epoch time: 23460.283 ms, per step time: 451.159 ms, avg loss: 3.199
+ckpt_0 | epoch: 8 acc: 0.4322916666666667, best acc is 0.4322916666666667
+Epoch:[  8/300], step:[   52/   52], loss:[3.697/3.123], time:135.301 ms, lr:0.00100
+Epoch time: 23949.063 ms, per step time: 460.559 ms, avg loss: 3.123
+ckpt_0 | epoch: 9 acc: 0.4453125, best acc is 0.4453125
+Epoch:[  9/300], step:[   52/   52], loss:[3.073/3.052], time:132.849 ms, lr:0.00100
+Epoch time: 22886.903 ms, per step time: 440.133 ms, avg loss: 3.052
+ckpt_0 | epoch: 10 acc: 0.4609375, best acc is 0.4609375
+Epoch:[ 10/300], step:[   52/   52], loss:[2.915/3.058], time:156.359 ms, lr:0.00100
+Epoch time: 24045.690 ms, per step time: 462.417 ms, avg loss: 3.058
+ckpt_0 | epoch: 11 acc: 0.4973958333333333, best acc is 0.4973958333333333
+Epoch:[ 11/300], step:[   52/   52], loss:[3.219/2.979], time:134.382 ms, lr:0.00100
+Epoch time: 24484.485 ms, per step time: 470.855 ms, avg loss: 2.979
+ckpt_0 | epoch: 12 acc: 0.484375, best acc is 0.4973958333333333
+Epoch:[ 12/300], step:[   52/   52], loss:[3.149/2.926], time:133.926 ms, lr:0.00100
+Epoch time: 28264.863 ms, per step time: 543.555 ms, avg loss: 2.926
+ckpt_0 | epoch: 13 acc: 0.5729166666666666, best acc is 0.5729166666666666
+Epoch:[ 13/300], step:[   52/   52], loss:[2.806/2.920], time:123.774 ms, lr:0.00100
+Epoch time: 23982.016 ms, per step time: 461.193 ms, avg loss: 2.920
+ckpt_0 | epoch: 14 acc: 0.6197916666666666, best acc is 0.6197916666666666
+Epoch:[ 14/300], step:[   52/   52], loss:[2.364/2.874], time:131.043 ms, lr:0.00099
+Epoch time: 23153.682 ms, per step time: 445.263 ms, avg loss: 2.874
+ckpt_0 | epoch: 15 acc: 0.5833333333333334, best acc is 0.6197916666666666
+Epoch:[ 15/300], step:[   52/   52], loss:[3.193/2.862], time:126.970 ms, lr:0.00099
+Epoch time: 27316.626 ms, per step time: 525.320 ms, avg loss: 2.862
+ckpt_0 | epoch: 16 acc: 0.5442708333333334, best acc is 0.6197916666666666
+Epoch:[ 16/300], step:[   52/   52], loss:[3.010/2.879], time:129.076 ms, lr:0.00099
+Epoch time: 27452.313 ms, per step time: 527.929 ms, avg loss: 2.879
+ckpt_0 | epoch: 17 acc: 0.6223958333333334, best acc is 0.6223958333333334
+Epoch:[ 17/300], step:[   52/   52], loss:[2.395/2.673], time:129.524 ms, lr:0.00099
+Epoch time: 23776.568 ms, per step time: 457.242 ms, avg loss: 2.673
+ckpt_0 | epoch: 18 acc: 0.6510416666666666, best acc is 0.6510416666666666
+Epoch:[ 18/300], step:[   52/   52], loss:[2.981/2.889], time:132.380 ms, lr:0.00099
+Epoch time: 22321.317 ms, per step time: 429.256 ms, avg loss: 2.889
+ckpt_0 | epoch: 19 acc: 0.6302083333333334, best acc is 0.6510416666666666
+Epoch:[ 19/300], step:[   52/   52], loss:[3.179/2.768], time:4889.910 ms, lr:0.00099
+Epoch time: 33245.455 ms, per step time: 639.336 ms, avg loss: 2.768
+ckpt_0 | epoch: 20 acc: 0.734375, best acc is 0.734375
+Epoch:[ 20/300], step:[   52/   52], loss:[2.939/2.819], time:124.232 ms, lr:0.00099
+Epoch time: 19743.681 ms, per step time: 379.686 ms, avg loss: 2.819
+ckpt_0 | epoch: 21 acc: 0.6588541666666666, best acc is 0.734375
+Epoch:[ 21/300], step:[   52/   52], loss:[2.980/2.744], time:125.640 ms, lr:0.00099
+Epoch time: 26934.417 ms, per step time: 517.970 ms, avg loss: 2.744
+ckpt_0 | epoch: 22 acc: 0.6666666666666666, best acc is 0.734375
+Epoch:[ 22/300], step:[   52/   52], loss:[2.585/2.719], time:130.011 ms, lr:0.00099
+Epoch time: 27788.981 ms, per step time: 534.403 ms, avg loss: 2.719
+ckpt_0 | epoch: 23 acc: 0.6822916666666666, best acc is 0.734375
+Epoch:[ 23/300], step:[   52/   52], loss:[2.931/2.755], time:127.618 ms, lr:0.00099
+Epoch time: 27322.174 ms, per step time: 525.426 ms, avg loss: 2.755
+ckpt_0 | epoch: 24 acc: 0.7265625, best acc is 0.734375
+Epoch:[ 24/300], step:[   52/   52], loss:[2.652/2.781], time:130.769 ms, lr:0.00098
+Epoch time: 28005.574 ms, per step time: 538.569 ms, avg loss: 2.781
+ckpt_0 | epoch: 25 acc: 0.6614583333333334, best acc is 0.734375
+Epoch:[ 25/300], step:[   52/   52], loss:[2.584/2.691], time:123.405 ms, lr:0.00098
+Epoch time: 27460.152 ms, per step time: 528.080 ms, avg loss: 2.691
+ckpt_0 | epoch: 26 acc: 0.7421875, best acc is 0.7421875
+Epoch:[ 26/300], step:[   52/   52], loss:[2.961/2.676], time:128.851 ms, lr:0.00098
+Epoch time: 23774.490 ms, per step time: 457.202 ms, avg loss: 2.676
+ckpt_0 | epoch: 27 acc: 0.7552083333333334, best acc is 0.7552083333333334
+Epoch:[ 27/300], step:[   52/   52], loss:[2.482/2.575], time:133.471 ms, lr:0.00098
+Epoch time: 22582.448 ms, per step time: 434.278 ms, avg loss: 2.575
+ckpt_0 | epoch: 28 acc: 0.7395833333333334, best acc is 0.7552083333333334
+Epoch:[ 28/300], step:[   52/   52], loss:[1.895/2.663], time:139.731 ms, lr:0.00098
+Epoch time: 26241.616 ms, per step time: 504.646 ms, avg loss: 2.663
+ckpt_0 | epoch: 29 acc: 0.7005208333333334, best acc is 0.7552083333333334
+Epoch:[ 29/300], step:[   52/   52], loss:[3.161/2.606], time:124.081 ms, lr:0.00098
+Epoch time: 26823.305 ms, per step time: 515.833 ms, avg loss: 2.606
+ckpt_0 | epoch: 30 acc: 0.7890625, best acc is 0.7890625
+Epoch:[ 30/300], step:[   52/   52], loss:[1.971/2.537], time:126.495 ms, lr:0.00098
+Epoch time: 22705.536 ms, per step time: 436.645 ms, avg loss: 2.537
+ckpt_0 | epoch: 31 acc: 0.7734375, best acc is 0.7890625
+Epoch:[ 31/300], step:[   52/   52], loss:[2.738/2.538], time:132.597 ms, lr:0.00097
+Epoch time: 26948.757 ms, per step time: 518.245 ms, avg loss: 2.538
+ckpt_0 | epoch: 32 acc: 0.7734375, best acc is 0.7890625
+Epoch:[ 32/300], step:[   52/   52], loss:[2.184/2.532], time:134.090 ms, lr:0.00097
+Epoch time: 27133.657 ms, per step time: 521.801 ms, avg loss: 2.532
+ckpt_0 | epoch: 33 acc: 0.8046875, best acc is 0.8046875
+Epoch:[ 33/300], step:[   52/   52], loss:[2.811/2.595], time:136.442 ms, lr:0.00097
+Epoch time: 23496.601 ms, per step time: 451.858 ms, avg loss: 2.595
+ckpt_0 | epoch: 34 acc: 0.7760416666666666, best acc is 0.8046875
+Epoch:[ 34/300], step:[   52/   52], loss:[2.949/2.697], time:127.460 ms, lr:0.00097
+Epoch time: 27855.790 ms, per step time: 535.688 ms, avg loss: 2.697
+ckpt_0 | epoch: 35 acc: 0.78125, best acc is 0.8046875
+Epoch:[ 35/300], step:[   52/   52], loss:[3.038/2.586], time:126.292 ms, lr:0.00097
+Epoch time: 27799.084 ms, per step time: 534.598 ms, avg loss: 2.586
+ckpt_0 | epoch: 36 acc: 0.7864583333333334, best acc is 0.8046875
+Epoch:[ 36/300], step:[   52/   52], loss:[1.780/2.548], time:132.041 ms, lr:0.00097
+Epoch time: 27709.390 ms, per step time: 532.873 ms, avg loss: 2.548
+ckpt_0 | epoch: 37 acc: 0.8020833333333334, best acc is 0.8046875
+Epoch:[ 37/300], step:[   52/   52], loss:[2.590/2.562], time:124.739 ms, lr:0.00096
+Epoch time: 27781.680 ms, per step time: 534.263 ms, avg loss: 2.562
+ckpt_0 | epoch: 38 acc: 0.8125, best acc is 0.8125
+Epoch:[ 38/300], step:[   52/   52], loss:[1.693/2.418], time:127.326 ms, lr:0.00096
+Epoch time: 23644.635 ms, per step time: 454.705 ms, avg loss: 2.418
+ckpt_0 | epoch: 39 acc: 0.7734375, best acc is 0.8125
+Epoch:[ 39/300], step:[   52/   52], loss:[2.817/2.414], time:4230.863 ms, lr:0.00096
+Epoch time: 31772.760 ms, per step time: 611.015 ms, avg loss: 2.414
+ckpt_0 | epoch: 40 acc: 0.8046875, best acc is 0.8125
+Epoch:[ 40/300], step:[   52/   52], loss:[2.408/2.481], time:123.816 ms, lr:0.00096
+Epoch time: 23859.643 ms, per step time: 458.839 ms, avg loss: 2.481
+ckpt_0 | epoch: 41 acc: 0.7916666666666666, best acc is 0.8125
+Epoch:[ 41/300], step:[   52/   52], loss:[2.492/2.434], time:126.285 ms, lr:0.00096
+Epoch time: 28105.289 ms, per step time: 540.486 ms, avg loss: 2.434
+ckpt_0 | epoch: 42 acc: 0.7890625, best acc is 0.8125
+Epoch:[ 42/300], step:[   52/   52], loss:[2.781/2.422], time:124.184 ms, lr:0.00095
+Epoch time: 27738.839 ms, per step time: 533.439 ms, avg loss: 2.422
+ckpt_0 | epoch: 43 acc: 0.78125, best acc is 0.8125
+Epoch:[ 43/300], step:[   52/   52], loss:[2.794/2.481], time:121.739 ms, lr:0.00095
+Epoch time: 26912.190 ms, per step time: 517.542 ms, avg loss: 2.481
+ckpt_0 | epoch: 44 acc: 0.8203125, best acc is 0.8203125
+Epoch:[ 44/300], step:[   52/   52], loss:[2.179/2.513], time:132.746 ms, lr:0.00095
+Epoch time: 22807.492 ms, per step time: 438.606 ms, avg loss: 2.513
+ckpt_0 | epoch: 45 acc: 0.7864583333333334, best acc is 0.8203125
+Epoch:[ 45/300], step:[   52/   52], loss:[2.652/2.531], time:130.973 ms, lr:0.00095
+Epoch time: 27267.994 ms, per step time: 524.385 ms, avg loss: 2.531
+ckpt_0 | epoch: 46 acc: 0.8463541666666666, best acc is 0.8463541666666666
+Epoch:[ 46/300], step:[   52/   52], loss:[3.035/2.496], time:132.735 ms, lr:0.00094
+Epoch time: 24043.206 ms, per step time: 462.369 ms, avg loss: 2.496
+ckpt_0 | epoch: 47 acc: 0.8046875, best acc is 0.8463541666666666
+Epoch:[ 47/300], step:[   52/   52], loss:[2.002/2.357], time:125.742 ms, lr:0.00094
+Epoch time: 27494.995 ms, per step time: 528.750 ms, avg loss: 2.357
+ckpt_0 | epoch: 48 acc: 0.7994791666666666, best acc is 0.8463541666666666
+Epoch:[ 48/300], step:[   52/   52], loss:[2.805/2.357], time:137.248 ms, lr:0.00094
+Epoch time: 26291.727 ms, per step time: 505.610 ms, avg loss: 2.357
+ckpt_0 | epoch: 49 acc: 0.8203125, best acc is 0.8463541666666666
+Epoch:[ 49/300], step:[   52/   52], loss:[2.403/2.344], time:129.046 ms, lr:0.00094
+Epoch time: 28044.062 ms, per step time: 539.309 ms, avg loss: 2.344
+ckpt_0 | epoch: 50 acc: 0.8255208333333334, best acc is 0.8463541666666666
+Epoch:[ 50/300], step:[   52/   52], loss:[2.688/2.334], time:126.266 ms, lr:0.00093
+Epoch time: 27879.852 ms, per step time: 536.151 ms, avg loss: 2.334
+ckpt_0 | epoch: 51 acc: 0.8359375, best acc is 0.8463541666666666
+Epoch:[ 51/300], step:[   52/   52], loss:[2.901/2.441], time:129.733 ms, lr:0.00093
+Epoch time: 28426.424 ms, per step time: 546.662 ms, avg loss: 2.441
+ckpt_0 | epoch: 52 acc: 0.8255208333333334, best acc is 0.8463541666666666
+Epoch:[ 52/300], step:[   52/   52], loss:[1.647/2.398], time:130.021 ms, lr:0.00093
+Epoch time: 28521.962 ms, per step time: 548.499 ms, avg loss: 2.398
+ckpt_0 | epoch: 53 acc: 0.84375, best acc is 0.8463541666666666
+Epoch:[ 53/300], step:[   52/   52], loss:[2.451/2.351], time:128.386 ms, lr:0.00093
+Epoch time: 28532.876 ms, per step time: 548.709 ms, avg loss: 2.351
+ckpt_0 | epoch: 54 acc: 0.8671875, best acc is 0.8671875
+Epoch:[ 54/300], step:[   52/   52], loss:[2.404/2.361], time:128.877 ms, lr:0.00092
+Epoch time: 24907.584 ms, per step time: 478.992 ms, avg loss: 2.361
+ckpt_0 | epoch: 55 acc: 0.8541666666666666, best acc is 0.8671875
+Epoch:[ 55/300], step:[   52/   52], loss:[2.390/2.288], time:127.959 ms, lr:0.00092
+Epoch time: 27241.905 ms, per step time: 523.883 ms, avg loss: 2.288
+ckpt_0 | epoch: 56 acc: 0.8567708333333334, best acc is 0.8671875
+Epoch:[ 56/300], step:[   52/   52], loss:[2.546/2.407], time:128.972 ms, lr:0.00092
+Epoch time: 28271.982 ms, per step time: 543.692 ms, avg loss: 2.407
+ckpt_0 | epoch: 57 acc: 0.8541666666666666, best acc is 0.8671875
+Epoch:[ 57/300], step:[   52/   52], loss:[1.663/2.420], time:125.946 ms, lr:0.00091
+Epoch time: 28019.606 ms, per step time: 538.839 ms, avg loss: 2.420
+ckpt_0 | epoch: 58 acc: 0.8072916666666666, best acc is 0.8671875
+Epoch:[ 58/300], step:[   52/   52], loss:[2.448/2.319], time:125.389 ms, lr:0.00091
+Epoch time: 28017.085 ms, per step time: 538.790 ms, avg loss: 2.319
+ckpt_0 | epoch: 59 acc: 0.8333333333333334, best acc is 0.8671875
+Epoch:[ 59/300], step:[   52/   52], loss:[1.493/2.262], time:4777.667 ms, lr:0.00091
+Epoch time: 32254.641 ms, per step time: 620.282 ms, avg loss: 2.262
+ckpt_0 | epoch: 60 acc: 0.8359375, best acc is 0.8671875
+Epoch:[ 60/300], step:[   52/   52], loss:[2.205/2.250], time:132.226 ms, lr:0.00091
+Epoch time: 23274.370 ms, per step time: 447.584 ms, avg loss: 2.250
+ckpt_0 | epoch: 61 acc: 0.8359375, best acc is 0.8671875
+Epoch:[ 61/300], step:[   52/   52], loss:[2.124/2.221], time:129.919 ms, lr:0.00090
+Epoch time: 27373.490 ms, per step time: 526.413 ms, avg loss: 2.221
+ckpt_0 | epoch: 62 acc: 0.8645833333333334, best acc is 0.8671875
+Epoch:[ 62/300], step:[   52/   52], loss:[2.756/2.344], time:128.891 ms, lr:0.00090
+Epoch time: 27878.360 ms, per step time: 536.122 ms, avg loss: 2.344
+ckpt_0 | epoch: 63 acc: 0.8776041666666666, best acc is 0.8776041666666666
+Epoch:[ 63/300], step:[   52/   52], loss:[1.612/2.254], time:125.279 ms, lr:0.00090
+Epoch time: 24663.899 ms, per step time: 474.306 ms, avg loss: 2.254
+ckpt_0 | epoch: 64 acc: 0.859375, best acc is 0.8776041666666666
+Epoch:[ 64/300], step:[   52/   52], loss:[2.206/2.166], time:123.492 ms, lr:0.00089
+Epoch time: 27412.587 ms, per step time: 527.165 ms, avg loss: 2.166
+ckpt_0 | epoch: 65 acc: 0.8697916666666666, best acc is 0.8776041666666666
+Epoch:[ 65/300], step:[   52/   52], loss:[2.666/2.382], time:123.566 ms, lr:0.00089
+Epoch time: 27144.284 ms, per step time: 522.005 ms, avg loss: 2.382
+ckpt_0 | epoch: 66 acc: 0.8463541666666666, best acc is 0.8776041666666666
+Epoch:[ 66/300], step:[   52/   52], loss:[1.780/2.329], time:125.209 ms, lr:0.00089
+Epoch time: 27550.360 ms, per step time: 529.815 ms, avg loss: 2.329
+ckpt_0 | epoch: 67 acc: 0.8697916666666666, best acc is 0.8776041666666666
+Epoch:[ 67/300], step:[   52/   52], loss:[3.036/2.239], time:131.850 ms, lr:0.00088
+Epoch time: 27873.404 ms, per step time: 536.027 ms, avg loss: 2.239
+ckpt_0 | epoch: 68 acc: 0.8958333333333334, best acc is 0.8958333333333334
+Epoch:[ 68/300], step:[   52/   52], loss:[2.512/2.266], time:123.397 ms, lr:0.00088
+Epoch time: 23608.466 ms, per step time: 454.009 ms, avg loss: 2.266
+ckpt_0 | epoch: 69 acc: 0.8958333333333334, best acc is 0.8958333333333334
+Epoch:[ 69/300], step:[   52/   52], loss:[1.788/2.199], time:127.367 ms, lr:0.00088
+Epoch time: 26769.085 ms, per step time: 514.790 ms, avg loss: 2.199
+ckpt_0 | epoch: 70 acc: 0.890625, best acc is 0.8958333333333334
+Epoch:[ 70/300], step:[   52/   52], loss:[1.596/2.256], time:132.221 ms, lr:0.00087
+Epoch time: 27864.260 ms, per step time: 535.851 ms, avg loss: 2.256
+ckpt_0 | epoch: 71 acc: 0.8671875, best acc is 0.8958333333333334
+Epoch:[ 71/300], step:[   52/   52], loss:[2.285/2.239], time:127.249 ms, lr:0.00087
+Epoch time: 26593.943 ms, per step time: 511.422 ms, avg loss: 2.239
+ckpt_0 | epoch: 72 acc: 0.8671875, best acc is 0.8958333333333334
+Epoch:[ 72/300], step:[   52/   52], loss:[2.349/2.319], time:136.899 ms, lr:0.00087
+Epoch time: 26929.071 ms, per step time: 517.867 ms, avg loss: 2.319
+ckpt_0 | epoch: 73 acc: 0.8958333333333334, best acc is 0.8958333333333334
+Epoch:[ 73/300], step:[   52/   52], loss:[1.638/2.305], time:130.919 ms, lr:0.00086
+Epoch time: 27207.143 ms, per step time: 523.214 ms, avg loss: 2.305
+ckpt_0 | epoch: 74 acc: 0.8854166666666666, best acc is 0.8958333333333334
+Epoch:[ 74/300], step:[   52/   52], loss:[2.313/2.298], time:131.504 ms, lr:0.00086
+Epoch time: 26713.267 ms, per step time: 513.717 ms, avg loss: 2.298
+ckpt_0 | epoch: 75 acc: 0.8541666666666666, best acc is 0.8958333333333334
+Epoch:[ 75/300], step:[   52/   52], loss:[1.290/2.250], time:128.905 ms, lr:0.00086
+Epoch time: 26389.595 ms, per step time: 507.492 ms, avg loss: 2.250
+ckpt_0 | epoch: 76 acc: 0.8619791666666666, best acc is 0.8958333333333334
+Epoch:[ 76/300], step:[   52/   52], loss:[2.365/2.254], time:130.757 ms, lr:0.00085
+Epoch time: 27035.371 ms, per step time: 519.911 ms, avg loss: 2.254
+ckpt_0 | epoch: 77 acc: 0.8880208333333334, best acc is 0.8958333333333334
+Epoch:[ 77/300], step:[   52/   52], loss:[2.298/2.256], time:126.203 ms, lr:0.00085
+Epoch time: 26368.096 ms, per step time: 507.079 ms, avg loss: 2.256
+ckpt_0 | epoch: 78 acc: 0.8958333333333334, best acc is 0.8958333333333334
+Epoch:[ 78/300], step:[   52/   52], loss:[1.766/2.225], time:123.278 ms, lr:0.00084
+Epoch time: 27602.392 ms, per step time: 530.815 ms, avg loss: 2.225
+ckpt_0 | epoch: 79 acc: 0.8463541666666666, best acc is 0.8958333333333334
+Epoch:[ 79/300], step:[   52/   52], loss:[2.067/2.288], time:4481.175 ms, lr:0.00084
+Epoch time: 32406.016 ms, per step time: 623.193 ms, avg loss: 2.288
+ckpt_0 | epoch: 80 acc: 0.8880208333333334, best acc is 0.8958333333333334
+Epoch:[ 80/300], step:[   52/   52], loss:[2.799/2.232], time:127.851 ms, lr:0.00084
+Epoch time: 23769.851 ms, per step time: 457.113 ms, avg loss: 2.232
+ckpt_0 | epoch: 81 acc: 0.8619791666666666, best acc is 0.8958333333333334
+Epoch:[ 81/300], step:[   52/   52], loss:[1.756/2.206], time:128.629 ms, lr:0.00083
+Epoch time: 27009.207 ms, per step time: 519.408 ms, avg loss: 2.206
+ckpt_0 | epoch: 82 acc: 0.8723958333333334, best acc is 0.8958333333333334
+Epoch:[ 82/300], step:[   52/   52], loss:[2.015/2.083], time:128.472 ms, lr:0.00083
+Epoch time: 26799.229 ms, per step time: 515.370 ms, avg loss: 2.083
+ckpt_0 | epoch: 83 acc: 0.9036458333333334, best acc is 0.9036458333333334
+Epoch:[ 83/300], step:[   52/   52], loss:[1.741/2.157], time:139.189 ms, lr:0.00082
+Epoch time: 23597.772 ms, per step time: 453.803 ms, avg loss: 2.157
+ckpt_0 | epoch: 84 acc: 0.9088541666666666, best acc is 0.9088541666666666
+Epoch:[ 84/300], step:[   52/   52], loss:[2.881/2.143], time:128.119 ms, lr:0.00082
+Epoch time: 23824.020 ms, per step time: 458.154 ms, avg loss: 2.143
+ckpt_0 | epoch: 85 acc: 0.7916666666666666, best acc is 0.9088541666666666
+Epoch:[ 85/300], step:[   52/   52], loss:[2.476/2.170], time:131.286 ms, lr:0.00082
+Epoch time: 27164.245 ms, per step time: 522.389 ms, avg loss: 2.170
+ckpt_0 | epoch: 86 acc: 0.8828125, best acc is 0.9088541666666666
+Epoch:[ 86/300], step:[   52/   52], loss:[2.061/2.234], time:130.258 ms, lr:0.00081
+Epoch time: 27978.392 ms, per step time: 538.046 ms, avg loss: 2.234
+ckpt_0 | epoch: 87 acc: 0.8776041666666666, best acc is 0.9088541666666666
+Epoch:[ 87/300], step:[   52/   52], loss:[1.503/2.110], time:135.048 ms, lr:0.00081
+Epoch time: 28472.099 ms, per step time: 547.540 ms, avg loss: 2.110
+ckpt_0 | epoch: 88 acc: 0.8958333333333334, best acc is 0.9088541666666666
+Epoch:[ 88/300], step:[   52/   52], loss:[2.806/2.155], time:128.942 ms, lr:0.00080
+Epoch time: 26896.405 ms, per step time: 517.239 ms, avg loss: 2.155
+ckpt_0 | epoch: 89 acc: 0.8958333333333334, best acc is 0.9088541666666666
+Epoch:[ 89/300], step:[   52/   52], loss:[1.146/2.179], time:138.636 ms, lr:0.00080
+Epoch time: 28135.875 ms, per step time: 541.075 ms, avg loss: 2.179
+ckpt_0 | epoch: 90 acc: 0.890625, best acc is 0.9088541666666666
+Epoch:[ 90/300], step:[   52/   52], loss:[2.415/2.204], time:130.882 ms, lr:0.00080
+Epoch time: 28530.565 ms, per step time: 548.665 ms, avg loss: 2.204
+ckpt_0 | epoch: 91 acc: 0.8932291666666666, best acc is 0.9088541666666666
+Epoch:[ 91/300], step:[   52/   52], loss:[1.947/2.194], time:131.148 ms, lr:0.00079
+Epoch time: 28492.877 ms, per step time: 547.940 ms, avg loss: 2.194
+ckpt_0 | epoch: 92 acc: 0.890625, best acc is 0.9088541666666666
+Epoch:[ 92/300], step:[   52/   52], loss:[2.237/2.200], time:126.994 ms, lr:0.00079
+Epoch time: 27999.930 ms, per step time: 538.460 ms, avg loss: 2.200
+ckpt_0 | epoch: 93 acc: 0.8828125, best acc is 0.9088541666666666
+Epoch:[ 93/300], step:[   52/   52], loss:[1.505/2.094], time:124.300 ms, lr:0.00078
+Epoch time: 27643.801 ms, per step time: 531.612 ms, avg loss: 2.094
+ckpt_0 | epoch: 94 acc: 0.8880208333333334, best acc is 0.9088541666666666
+Epoch:[ 94/300], step:[   52/   52], loss:[2.895/2.212], time:131.546 ms, lr:0.00078
+Epoch time: 27611.525 ms, per step time: 530.991 ms, avg loss: 2.212
+ckpt_0 | epoch: 95 acc: 0.9114583333333334, best acc is 0.9114583333333334
+Epoch:[ 95/300], step:[   52/   52], loss:[2.237/2.184], time:131.968 ms, lr:0.00077
+Epoch time: 24745.366 ms, per step time: 475.872 ms, avg loss: 2.184
+ckpt_0 | epoch: 96 acc: 0.8671875, best acc is 0.9114583333333334
+Epoch:[ 96/300], step:[   52/   52], loss:[1.527/2.132], time:131.223 ms, lr:0.00077
+Epoch time: 26834.584 ms, per step time: 516.050 ms, avg loss: 2.132
+ckpt_0 | epoch: 97 acc: 0.8723958333333334, best acc is 0.9114583333333334
+Epoch:[ 97/300], step:[   52/   52], loss:[2.550/2.170], time:134.811 ms, lr:0.00077
+Epoch time: 26931.596 ms, per step time: 517.915 ms, avg loss: 2.170
+ckpt_0 | epoch: 98 acc: 0.9114583333333334, best acc is 0.9114583333333334
+Epoch:[ 98/300], step:[   52/   52], loss:[1.331/2.019], time:130.638 ms, lr:0.00076
+Epoch time: 27858.395 ms, per step time: 535.738 ms, avg loss: 2.019
+ckpt_0 | epoch: 99 acc: 0.8958333333333334, best acc is 0.9114583333333334
+Epoch:[ 99/300], step:[   52/   52], loss:[2.485/2.191], time:4887.807 ms, lr:0.00076
+Epoch time: 32605.122 ms, per step time: 627.022 ms, avg loss: 2.191
+ckpt_0 | epoch: 100 acc: 0.9114583333333334, best acc is 0.9114583333333334
+Epoch:[100/300], step:[   52/   52], loss:[2.180/2.085], time:130.728 ms, lr:0.00075
+Epoch time: 24079.174 ms, per step time: 463.061 ms, avg loss: 2.085
+ckpt_0 | epoch: 101 acc: 0.9036458333333334, best acc is 0.9114583333333334
+Epoch:[101/300], step:[   52/   52], loss:[2.166/2.092], time:124.019 ms, lr:0.00075
+Epoch time: 28367.450 ms, per step time: 545.528 ms, avg loss: 2.092
+ckpt_0 | epoch: 102 acc: 0.8984375, best acc is 0.9114583333333334
+Epoch:[102/300], step:[   52/   52], loss:[2.203/2.141], time:130.458 ms, lr:0.00074
+Epoch time: 27851.842 ms, per step time: 535.612 ms, avg loss: 2.141
+ckpt_0 | epoch: 103 acc: 0.8984375, best acc is 0.9114583333333334
+Epoch:[103/300], step:[   52/   52], loss:[2.410/2.133], time:131.944 ms, lr:0.00074
+Epoch time: 27797.956 ms, per step time: 534.576 ms, avg loss: 2.133
+ckpt_0 | epoch: 104 acc: 0.9010416666666666, best acc is 0.9114583333333334
+Epoch:[104/300], step:[   52/   52], loss:[1.664/2.127], time:131.603 ms, lr:0.00073
+Epoch time: 27028.867 ms, per step time: 519.786 ms, avg loss: 2.127
+ckpt_0 | epoch: 105 acc: 0.8880208333333334, best acc is 0.9114583333333334
+Epoch:[105/300], step:[   52/   52], loss:[2.413/2.104], time:124.138 ms, lr:0.00073
+Epoch time: 28140.181 ms, per step time: 541.157 ms, avg loss: 2.104
+ckpt_0 | epoch: 106 acc: 0.8880208333333334, best acc is 0.9114583333333334
+Epoch:[106/300], step:[   52/   52], loss:[2.069/2.133], time:125.605 ms, lr:0.00073
+Epoch time: 27999.413 ms, per step time: 538.450 ms, avg loss: 2.133
+ckpt_0 | epoch: 107 acc: 0.90625, best acc is 0.9114583333333334
+Epoch:[107/300], step:[   52/   52], loss:[2.143/2.152], time:128.987 ms, lr:0.00072
+Epoch time: 28375.595 ms, per step time: 545.685 ms, avg loss: 2.152
+ckpt_0 | epoch: 108 acc: 0.90625, best acc is 0.9114583333333334
+Epoch:[108/300], step:[   52/   52], loss:[2.503/2.186], time:127.330 ms, lr:0.00072
+Epoch time: 27827.230 ms, per step time: 535.139 ms, avg loss: 2.186
+ckpt_0 | epoch: 109 acc: 0.9114583333333334, best acc is 0.9114583333333334
+Epoch:[109/300], step:[   52/   52], loss:[2.158/2.081], time:127.439 ms, lr:0.00071
+Epoch time: 27172.258 ms, per step time: 522.543 ms, avg loss: 2.081
+ckpt_0 | epoch: 110 acc: 0.9114583333333334, best acc is 0.9114583333333334
+Epoch:[110/300], step:[   52/   52], loss:[1.631/2.141], time:130.368 ms, lr:0.00071
+Epoch time: 28098.506 ms, per step time: 540.356 ms, avg loss: 2.141
+ckpt_0 | epoch: 111 acc: 0.9192708333333334, best acc is 0.9192708333333334
+Epoch:[111/300], step:[   52/   52], loss:[1.211/2.091], time:127.867 ms, lr:0.00070
+Epoch time: 22888.499 ms, per step time: 440.163 ms, avg loss: 2.091
+ckpt_0 | epoch: 112 acc: 0.8958333333333334, best acc is 0.9192708333333334
+Epoch:[112/300], step:[   52/   52], loss:[2.597/2.007], time:135.746 ms, lr:0.00070
+Epoch time: 27268.191 ms, per step time: 524.388 ms, avg loss: 2.007
+ckpt_0 | epoch: 113 acc: 0.8984375, best acc is 0.9192708333333334
+Epoch:[113/300], step:[   52/   52], loss:[2.592/2.185], time:129.482 ms, lr:0.00069
+Epoch time: 27847.386 ms, per step time: 535.527 ms, avg loss: 2.185
+ckpt_0 | epoch: 114 acc: 0.890625, best acc is 0.9192708333333334
+Epoch:[114/300], step:[   52/   52], loss:[1.854/2.013], time:132.484 ms, lr:0.00069
+Epoch time: 29033.292 ms, per step time: 558.333 ms, avg loss: 2.013
+ckpt_0 | epoch: 115 acc: 0.8880208333333334, best acc is 0.9192708333333334
+Epoch:[115/300], step:[   52/   52], loss:[1.516/1.995], time:127.458 ms, lr:0.00068
+Epoch time: 27906.832 ms, per step time: 536.670 ms, avg loss: 1.995
+ckpt_0 | epoch: 116 acc: 0.90625, best acc is 0.9192708333333334
+Epoch:[116/300], step:[   52/   52], loss:[2.090/1.887], time:127.218 ms, lr:0.00068
+Epoch time: 28359.702 ms, per step time: 545.379 ms, avg loss: 1.887
+ckpt_0 | epoch: 117 acc: 0.8984375, best acc is 0.9192708333333334
+Epoch:[117/300], step:[   52/   52], loss:[2.173/2.010], time:128.035 ms, lr:0.00067
+Epoch time: 28334.232 ms, per step time: 544.889 ms, avg loss: 2.010
+ckpt_0 | epoch: 118 acc: 0.9296875, best acc is 0.9296875
+Epoch:[118/300], step:[   52/   52], loss:[2.241/2.029], time:131.980 ms, lr:0.00067
+Epoch time: 23771.325 ms, per step time: 457.141 ms, avg loss: 2.029
+ckpt_0 | epoch: 119 acc: 0.9192708333333334, best acc is 0.9296875
+Epoch:[119/300], step:[   52/   52], loss:[1.489/2.072], time:5438.974 ms, lr:0.00066
+Epoch time: 33721.950 ms, per step time: 648.499 ms, avg loss: 2.072
+ckpt_0 | epoch: 120 acc: 0.9244791666666666, best acc is 0.9296875
+Epoch:[120/300], step:[   52/   52], loss:[2.655/1.989], time:134.861 ms, lr:0.00066
+Epoch time: 24323.320 ms, per step time: 467.756 ms, avg loss: 1.989
+ckpt_0 | epoch: 121 acc: 0.90625, best acc is 0.9296875
+Epoch:[121/300], step:[   52/   52], loss:[1.725/2.012], time:129.138 ms, lr:0.00065
+Epoch time: 28065.632 ms, per step time: 539.724 ms, avg loss: 2.012
+ckpt_0 | epoch: 122 acc: 0.9192708333333334, best acc is 0.9296875
+Epoch:[122/300], step:[   52/   52], loss:[2.216/2.054], time:127.598 ms, lr:0.00065
+Epoch time: 28496.499 ms, per step time: 548.010 ms, avg loss: 2.054
+ckpt_0 | epoch: 123 acc: 0.921875, best acc is 0.9296875
+Epoch:[123/300], step:[   52/   52], loss:[2.151/2.018], time:120.960 ms, lr:0.00064
+Epoch time: 28130.645 ms, per step time: 540.974 ms, avg loss: 2.018
+ckpt_0 | epoch: 124 acc: 0.9270833333333334, best acc is 0.9296875
+Epoch:[124/300], step:[   52/   52], loss:[2.338/2.144], time:118.435 ms, lr:0.00064
+Epoch time: 27948.269 ms, per step time: 537.467 ms, avg loss: 2.144
+ckpt_0 | epoch: 125 acc: 0.9088541666666666, best acc is 0.9296875
+Epoch:[125/300], step:[   52/   52], loss:[2.330/1.979], time:130.329 ms, lr:0.00063
+Epoch time: 28116.047 ms, per step time: 540.693 ms, avg loss: 1.979
+ckpt_0 | epoch: 126 acc: 0.8958333333333334, best acc is 0.9296875
+Epoch:[126/300], step:[   52/   52], loss:[2.348/2.032], time:134.030 ms, lr:0.00063
+Epoch time: 28129.688 ms, per step time: 540.956 ms, avg loss: 2.032
+ckpt_0 | epoch: 127 acc: 0.9010416666666666, best acc is 0.9296875
+Epoch:[127/300], step:[   52/   52], loss:[1.723/2.009], time:129.735 ms, lr:0.00062
+Epoch time: 28422.715 ms, per step time: 546.591 ms, avg loss: 2.009
+ckpt_0 | epoch: 128 acc: 0.9166666666666666, best acc is 0.9296875
+Epoch:[128/300], step:[   52/   52], loss:[2.267/1.993], time:125.638 ms, lr:0.00062
+Epoch time: 27469.578 ms, per step time: 528.261 ms, avg loss: 1.993
+ckpt_0 | epoch: 129 acc: 0.9114583333333334, best acc is 0.9296875
+Epoch:[129/300], step:[   52/   52], loss:[1.636/2.013], time:125.146 ms, lr:0.00061
+Epoch time: 27701.570 ms, per step time: 532.723 ms, avg loss: 2.013
+ckpt_0 | epoch: 130 acc: 0.921875, best acc is 0.9296875
+Epoch:[130/300], step:[   52/   52], loss:[1.420/2.095], time:132.231 ms, lr:0.00061
+Epoch time: 28825.676 ms, per step time: 554.340 ms, avg loss: 2.095
+ckpt_0 | epoch: 131 acc: 0.9244791666666666, best acc is 0.9296875
+Epoch:[131/300], step:[   52/   52], loss:[1.900/1.959], time:130.809 ms, lr:0.00060
+Epoch time: 27679.276 ms, per step time: 532.294 ms, avg loss: 1.959
+ckpt_0 | epoch: 132 acc: 0.9010416666666666, best acc is 0.9296875
+Epoch:[132/300], step:[   52/   52], loss:[2.282/2.019], time:124.996 ms, lr:0.00060
+Epoch time: 26673.133 ms, per step time: 512.945 ms, avg loss: 2.019
+ckpt_0 | epoch: 133 acc: 0.921875, best acc is 0.9296875
+Epoch:[133/300], step:[   52/   52], loss:[2.009/2.093], time:127.008 ms, lr:0.00059
+Epoch time: 26797.469 ms, per step time: 515.336 ms, avg loss: 2.093
+ckpt_0 | epoch: 134 acc: 0.9114583333333334, best acc is 0.9296875
+Epoch:[134/300], step:[   52/   52], loss:[1.444/2.049], time:129.037 ms, lr:0.00059
+Epoch time: 27100.275 ms, per step time: 521.159 ms, avg loss: 2.049
+ckpt_0 | epoch: 135 acc: 0.9140625, best acc is 0.9296875
+Epoch:[135/300], step:[   52/   52], loss:[2.321/1.927], time:132.650 ms, lr:0.00058
+Epoch time: 28042.247 ms, per step time: 539.274 ms, avg loss: 1.927
+ckpt_0 | epoch: 136 acc: 0.9036458333333334, best acc is 0.9296875
+Epoch:[136/300], step:[   52/   52], loss:[2.080/2.009], time:125.523 ms, lr:0.00058
+Epoch time: 27044.092 ms, per step time: 520.079 ms, avg loss: 2.009
+ckpt_0 | epoch: 137 acc: 0.9114583333333334, best acc is 0.9296875
+Epoch:[137/300], step:[   52/   52], loss:[1.958/2.024], time:128.451 ms, lr:0.00057
+Epoch time: 26929.933 ms, per step time: 517.883 ms, avg loss: 2.024
+ckpt_0 | epoch: 138 acc: 0.9244791666666666, best acc is 0.9296875
+Epoch:[138/300], step:[   52/   52], loss:[2.572/2.079], time:125.040 ms, lr:0.00057
+Epoch time: 27738.923 ms, per step time: 533.441 ms, avg loss: 2.079
+ckpt_0 | epoch: 139 acc: 0.9244791666666666, best acc is 0.9296875
+Epoch:[139/300], step:[   52/   52], loss:[2.325/1.982], time:4894.197 ms, lr:0.00056
+Epoch time: 32623.914 ms, per step time: 627.383 ms, avg loss: 1.982
+ckpt_0 | epoch: 140 acc: 0.9244791666666666, best acc is 0.9296875
+Epoch:[140/300], step:[   52/   52], loss:[1.348/1.950], time:128.855 ms, lr:0.00056
+Epoch time: 23903.815 ms, per step time: 459.689 ms, avg loss: 1.950
+ckpt_0 | epoch: 141 acc: 0.90625, best acc is 0.9296875
+Epoch:[141/300], step:[   52/   52], loss:[1.985/1.915], time:124.899 ms, lr:0.00055
+Epoch time: 27787.381 ms, per step time: 534.373 ms, avg loss: 1.915
+ckpt_0 | epoch: 142 acc: 0.9036458333333334, best acc is 0.9296875
+Epoch:[142/300], step:[   52/   52], loss:[2.433/2.027], time:132.344 ms, lr:0.00055
+Epoch time: 28406.785 ms, per step time: 546.284 ms, avg loss: 2.027
+ckpt_0 | epoch: 143 acc: 0.9296875, best acc is 0.9296875
+Epoch:[143/300], step:[   52/   52], loss:[1.689/2.089], time:130.674 ms, lr:0.00054
+Epoch time: 27318.729 ms, per step time: 525.360 ms, avg loss: 2.089
+ckpt_0 | epoch: 144 acc: 0.9296875, best acc is 0.9296875
+Epoch:[144/300], step:[   52/   52], loss:[1.952/1.971], time:124.257 ms, lr:0.00054
+Epoch time: 27580.703 ms, per step time: 530.398 ms, avg loss: 1.971
+ckpt_0 | epoch: 145 acc: 0.9322916666666666, best acc is 0.9322916666666666
+Epoch:[145/300], step:[   52/   52], loss:[2.721/2.045], time:128.384 ms, lr:0.00053
+Epoch time: 22804.680 ms, per step time: 438.552 ms, avg loss: 2.045
+ckpt_0 | epoch: 146 acc: 0.9192708333333334, best acc is 0.9322916666666666
+Epoch:[146/300], step:[   52/   52], loss:[2.212/1.951], time:122.367 ms, lr:0.00053
+Epoch time: 28513.633 ms, per step time: 548.339 ms, avg loss: 1.951
+ckpt_0 | epoch: 147 acc: 0.9270833333333334, best acc is 0.9322916666666666
+Epoch:[147/300], step:[   52/   52], loss:[2.381/2.015], time:122.264 ms, lr:0.00052
+Epoch time: 28738.800 ms, per step time: 552.669 ms, avg loss: 2.015
+ckpt_0 | epoch: 148 acc: 0.9296875, best acc is 0.9322916666666666
+Epoch:[148/300], step:[   52/   52], loss:[2.473/2.001], time:129.844 ms, lr:0.00052
+Epoch time: 28234.189 ms, per step time: 542.965 ms, avg loss: 2.001
+ckpt_0 | epoch: 149 acc: 0.9192708333333334, best acc is 0.9322916666666666
+Epoch:[149/300], step:[   52/   52], loss:[2.166/2.039], time:133.674 ms, lr:0.00051
+Epoch time: 28346.381 ms, per step time: 545.123 ms, avg loss: 2.039
+ckpt_0 | epoch: 150 acc: 0.9270833333333334, best acc is 0.9322916666666666
+Epoch:[150/300], step:[   52/   52], loss:[1.517/1.834], time:130.577 ms, lr:0.00051
+Epoch time: 26801.152 ms, per step time: 515.407 ms, avg loss: 1.834
+ckpt_0 | epoch: 151 acc: 0.9166666666666666, best acc is 0.9322916666666666
+Epoch:[151/300], step:[   52/   52], loss:[2.643/1.824], time:126.908 ms, lr:0.00050
+Epoch time: 27646.394 ms, per step time: 531.661 ms, avg loss: 1.824
+ckpt_0 | epoch: 152 acc: 0.921875, best acc is 0.9322916666666666
+Epoch:[152/300], step:[   52/   52], loss:[1.932/1.915], time:133.193 ms, lr:0.00049
+Epoch time: 27894.740 ms, per step time: 536.437 ms, avg loss: 1.915
+ckpt_0 | epoch: 153 acc: 0.9244791666666666, best acc is 0.9322916666666666
+Epoch:[153/300], step:[   52/   52], loss:[2.046/1.880], time:128.853 ms, lr:0.00049
+Epoch time: 27710.115 ms, per step time: 532.887 ms, avg loss: 1.880
+ckpt_0 | epoch: 154 acc: 0.9479166666666666, best acc is 0.9479166666666666
+Epoch:[154/300], step:[   52/   52], loss:[2.258/1.918], time:128.834 ms, lr:0.00048
+Epoch time: 23653.985 ms, per step time: 454.884 ms, avg loss: 1.918
+ckpt_0 | epoch: 155 acc: 0.9322916666666666, best acc is 0.9479166666666666
+Epoch:[155/300], step:[   52/   52], loss:[1.954/1.950], time:125.923 ms, lr:0.00048
+Epoch time: 28255.183 ms, per step time: 543.369 ms, avg loss: 1.950
+ckpt_0 | epoch: 156 acc: 0.9192708333333334, best acc is 0.9479166666666666
+Epoch:[156/300], step:[   52/   52], loss:[1.560/2.004], time:129.032 ms, lr:0.00047
+Epoch time: 27807.806 ms, per step time: 534.765 ms, avg loss: 2.004
+ckpt_0 | epoch: 157 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[157/300], step:[   52/   52], loss:[1.494/1.920], time:131.083 ms, lr:0.00047
+Epoch time: 27939.906 ms, per step time: 537.306 ms, avg loss: 1.920
+ckpt_0 | epoch: 158 acc: 0.9322916666666666, best acc is 0.9479166666666666
+Epoch:[158/300], step:[   52/   52], loss:[1.104/1.897], time:137.737 ms, lr:0.00046
+Epoch time: 28301.277 ms, per step time: 544.255 ms, avg loss: 1.897
+ckpt_0 | epoch: 159 acc: 0.9296875, best acc is 0.9479166666666666
+Epoch:[159/300], step:[   52/   52], loss:[2.021/1.912], time:5052.174 ms, lr:0.00046
+Epoch time: 32192.239 ms, per step time: 619.082 ms, avg loss: 1.912
+ckpt_0 | epoch: 160 acc: 0.9166666666666666, best acc is 0.9479166666666666
+Epoch:[160/300], step:[   52/   52], loss:[1.015/1.903], time:126.246 ms, lr:0.00045
+Epoch time: 23836.613 ms, per step time: 458.396 ms, avg loss: 1.903
+ckpt_0 | epoch: 161 acc: 0.9375, best acc is 0.9479166666666666
+Epoch:[161/300], step:[   52/   52], loss:[2.213/1.954], time:129.462 ms, lr:0.00045
+Epoch time: 28126.604 ms, per step time: 540.896 ms, avg loss: 1.954
+ckpt_0 | epoch: 162 acc: 0.9296875, best acc is 0.9479166666666666
+Epoch:[162/300], step:[   52/   52], loss:[1.909/1.878], time:137.337 ms, lr:0.00044
+Epoch time: 27759.059 ms, per step time: 533.828 ms, avg loss: 1.878
+ckpt_0 | epoch: 163 acc: 0.9427083333333334, best acc is 0.9479166666666666
+Epoch:[163/300], step:[   52/   52], loss:[2.280/1.981], time:131.673 ms, lr:0.00044
+Epoch time: 26855.741 ms, per step time: 516.457 ms, avg loss: 1.981
+ckpt_0 | epoch: 164 acc: 0.9322916666666666, best acc is 0.9479166666666666
+Epoch:[164/300], step:[   52/   52], loss:[1.925/1.972], time:127.915 ms, lr:0.00043
+Epoch time: 26952.376 ms, per step time: 518.315 ms, avg loss: 1.972
+ckpt_0 | epoch: 165 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[165/300], step:[   52/   52], loss:[1.933/1.924], time:131.375 ms, lr:0.00043
+Epoch time: 26895.329 ms, per step time: 517.218 ms, avg loss: 1.924
+ckpt_0 | epoch: 166 acc: 0.921875, best acc is 0.9479166666666666
+Epoch:[166/300], step:[   52/   52], loss:[1.181/1.894], time:133.651 ms, lr:0.00042
+Epoch time: 27710.852 ms, per step time: 532.901 ms, avg loss: 1.894
+ckpt_0 | epoch: 167 acc: 0.921875, best acc is 0.9479166666666666
+Epoch:[167/300], step:[   52/   52], loss:[2.069/1.864], time:127.457 ms, lr:0.00042
+Epoch time: 26885.204 ms, per step time: 517.023 ms, avg loss: 1.864
+ckpt_0 | epoch: 168 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[168/300], step:[   52/   52], loss:[2.144/1.956], time:132.367 ms, lr:0.00041
+Epoch time: 26901.393 ms, per step time: 517.334 ms, avg loss: 1.956
+ckpt_0 | epoch: 169 acc: 0.9427083333333334, best acc is 0.9479166666666666
+Epoch:[169/300], step:[   52/   52], loss:[1.028/1.860], time:124.546 ms, lr:0.00041
+Epoch time: 26582.260 ms, per step time: 511.197 ms, avg loss: 1.860
+ckpt_0 | epoch: 170 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[170/300], step:[   52/   52], loss:[2.106/1.920], time:131.621 ms, lr:0.00040
+Epoch time: 26155.315 ms, per step time: 502.987 ms, avg loss: 1.920
+ckpt_0 | epoch: 171 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[171/300], step:[   52/   52], loss:[2.191/1.937], time:129.953 ms, lr:0.00040
+Epoch time: 26593.581 ms, per step time: 511.415 ms, avg loss: 1.937
+ckpt_0 | epoch: 172 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[172/300], step:[   52/   52], loss:[1.965/1.879], time:126.130 ms, lr:0.00039
+Epoch time: 28106.147 ms, per step time: 540.503 ms, avg loss: 1.879
+ckpt_0 | epoch: 173 acc: 0.9244791666666666, best acc is 0.9479166666666666
+Epoch:[173/300], step:[   52/   52], loss:[1.816/1.940], time:129.709 ms, lr:0.00039
+Epoch time: 27611.164 ms, per step time: 530.984 ms, avg loss: 1.940
+ckpt_0 | epoch: 174 acc: 0.9375, best acc is 0.9479166666666666
+Epoch:[174/300], step:[   52/   52], loss:[2.516/2.036], time:127.813 ms, lr:0.00038
+Epoch time: 28211.509 ms, per step time: 542.529 ms, avg loss: 2.036
+ckpt_0 | epoch: 175 acc: 0.9244791666666666, best acc is 0.9479166666666666
+Epoch:[175/300], step:[   52/   52], loss:[2.061/1.903], time:125.515 ms, lr:0.00038
+Epoch time: 28139.251 ms, per step time: 541.139 ms, avg loss: 1.903
+ckpt_0 | epoch: 176 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[176/300], step:[   52/   52], loss:[1.943/1.862], time:132.758 ms, lr:0.00037
+Epoch time: 27700.014 ms, per step time: 532.693 ms, avg loss: 1.862
+ckpt_0 | epoch: 177 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[177/300], step:[   52/   52], loss:[1.495/1.810], time:127.969 ms, lr:0.00037
+Epoch time: 27721.159 ms, per step time: 533.099 ms, avg loss: 1.810
+ckpt_0 | epoch: 178 acc: 0.9479166666666666, best acc is 0.9479166666666666
+Epoch:[178/300], step:[   52/   52], loss:[2.056/1.886], time:129.164 ms, lr:0.00036
+Epoch time: 28432.431 ms, per step time: 546.778 ms, avg loss: 1.886
+ckpt_0 | epoch: 179 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[179/300], step:[   52/   52], loss:[2.343/1.877], time:4712.003 ms, lr:0.00036
+Epoch time: 32136.718 ms, per step time: 618.014 ms, avg loss: 1.877
+ckpt_0 | epoch: 180 acc: 0.9453125, best acc is 0.9479166666666666
+Epoch:[180/300], step:[   52/   52], loss:[1.938/1.840], time:129.235 ms, lr:0.00035
+Epoch time: 23173.835 ms, per step time: 445.651 ms, avg loss: 1.840
+ckpt_0 | epoch: 181 acc: 0.9322916666666666, best acc is 0.9479166666666666
+Epoch:[181/300], step:[   52/   52], loss:[1.848/1.931], time:122.684 ms, lr:0.00035
+Epoch time: 26588.349 ms, per step time: 511.314 ms, avg loss: 1.931
+ckpt_0 | epoch: 182 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[182/300], step:[   52/   52], loss:[2.612/1.859], time:124.430 ms, lr:0.00034
+Epoch time: 27563.319 ms, per step time: 530.064 ms, avg loss: 1.859
+ckpt_0 | epoch: 183 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[183/300], step:[   52/   52], loss:[1.118/1.936], time:127.014 ms, lr:0.00034
+Epoch time: 27818.104 ms, per step time: 534.964 ms, avg loss: 1.936
+ckpt_0 | epoch: 184 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[184/300], step:[   52/   52], loss:[1.797/1.915], time:125.355 ms, lr:0.00033
+Epoch time: 27424.299 ms, per step time: 527.390 ms, avg loss: 1.915
+ckpt_0 | epoch: 185 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[185/300], step:[   52/   52], loss:[1.416/1.931], time:132.121 ms, lr:0.00033
+Epoch time: 25932.124 ms, per step time: 498.695 ms, avg loss: 1.931
+ckpt_0 | epoch: 186 acc: 0.9296875, best acc is 0.9479166666666666
+Epoch:[186/300], step:[   52/   52], loss:[2.067/1.864], time:128.757 ms, lr:0.00032
+Epoch time: 27318.748 ms, per step time: 525.361 ms, avg loss: 1.864
+ckpt_0 | epoch: 187 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[187/300], step:[   52/   52], loss:[2.412/1.902], time:130.525 ms, lr:0.00032
+Epoch time: 27700.591 ms, per step time: 532.704 ms, avg loss: 1.902
+ckpt_0 | epoch: 188 acc: 0.9322916666666666, best acc is 0.9479166666666666
+Epoch:[188/300], step:[   52/   52], loss:[1.813/1.808], time:131.283 ms, lr:0.00031
+Epoch time: 26933.547 ms, per step time: 517.953 ms, avg loss: 1.808
+ckpt_0 | epoch: 189 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[189/300], step:[   52/   52], loss:[1.713/1.939], time:130.991 ms, lr:0.00031
+Epoch time: 26621.811 ms, per step time: 511.958 ms, avg loss: 1.939
+ckpt_0 | epoch: 190 acc: 0.9296875, best acc is 0.9479166666666666
+Epoch:[190/300], step:[   52/   52], loss:[1.699/1.820], time:129.131 ms, lr:0.00030
+Epoch time: 26942.733 ms, per step time: 518.129 ms, avg loss: 1.820
+ckpt_0 | epoch: 191 acc: 0.9453125, best acc is 0.9479166666666666
+Epoch:[191/300], step:[   52/   52], loss:[1.981/1.811], time:140.999 ms, lr:0.00030
+Epoch time: 26997.558 ms, per step time: 519.184 ms, avg loss: 1.811
+ckpt_0 | epoch: 192 acc: 0.9375, best acc is 0.9479166666666666
+Epoch:[192/300], step:[   52/   52], loss:[1.916/1.865], time:129.981 ms, lr:0.00029
+Epoch time: 27881.153 ms, per step time: 536.176 ms, avg loss: 1.865
+ckpt_0 | epoch: 193 acc: 0.921875, best acc is 0.9479166666666666
+Epoch:[193/300], step:[   52/   52], loss:[1.143/1.813], time:130.475 ms, lr:0.00029
+Epoch time: 28498.743 ms, per step time: 548.053 ms, avg loss: 1.813
+ckpt_0 | epoch: 194 acc: 0.9270833333333334, best acc is 0.9479166666666666
+Epoch:[194/300], step:[   52/   52], loss:[2.207/1.880], time:129.053 ms, lr:0.00028
+Epoch time: 28157.081 ms, per step time: 541.482 ms, avg loss: 1.880
+ckpt_0 | epoch: 195 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[195/300], step:[   52/   52], loss:[1.564/1.806], time:133.802 ms, lr:0.00028
+Epoch time: 28155.285 ms, per step time: 541.448 ms, avg loss: 1.806
+ckpt_0 | epoch: 196 acc: 0.9296875, best acc is 0.9479166666666666
+Epoch:[196/300], step:[   52/   52], loss:[2.213/1.869], time:130.189 ms, lr:0.00028
+Epoch time: 27797.093 ms, per step time: 534.559 ms, avg loss: 1.869
+ckpt_0 | epoch: 197 acc: 0.9375, best acc is 0.9479166666666666
+Epoch:[197/300], step:[   52/   52], loss:[2.299/1.769], time:125.269 ms, lr:0.00027
+Epoch time: 28530.579 ms, per step time: 548.665 ms, avg loss: 1.769
+ckpt_0 | epoch: 198 acc: 0.9427083333333334, best acc is 0.9479166666666666
+Epoch:[198/300], step:[   52/   52], loss:[1.686/1.879], time:125.545 ms, lr:0.00027
+Epoch time: 27607.079 ms, per step time: 530.905 ms, avg loss: 1.879
+ckpt_0 | epoch: 199 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[199/300], step:[   52/   52], loss:[1.438/1.772], time:4864.902 ms, lr:0.00026
+Epoch time: 32129.163 ms, per step time: 617.869 ms, avg loss: 1.772
+ckpt_0 | epoch: 200 acc: 0.9453125, best acc is 0.9479166666666666
+Epoch:[200/300], step:[   52/   52], loss:[2.283/1.974], time:132.417 ms, lr:0.00026
+Epoch time: 23298.793 ms, per step time: 448.054 ms, avg loss: 1.974
+ckpt_0 | epoch: 201 acc: 0.9375, best acc is 0.9479166666666666
+Epoch:[201/300], step:[   52/   52], loss:[1.016/1.766], time:131.787 ms, lr:0.00025
+Epoch time: 27298.229 ms, per step time: 524.966 ms, avg loss: 1.766
+ckpt_0 | epoch: 202 acc: 0.9453125, best acc is 0.9479166666666666
+Epoch:[202/300], step:[   52/   52], loss:[1.285/1.708], time:126.090 ms, lr:0.00025
+Epoch time: 27787.123 ms, per step time: 534.368 ms, avg loss: 1.708
+ckpt_0 | epoch: 203 acc: 0.9427083333333334, best acc is 0.9479166666666666
+Epoch:[203/300], step:[   52/   52], loss:[2.274/1.915], time:131.377 ms, lr:0.00024
+Epoch time: 27722.187 ms, per step time: 533.119 ms, avg loss: 1.915
+ckpt_0 | epoch: 204 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[204/300], step:[   52/   52], loss:[1.652/1.843], time:132.029 ms, lr:0.00024
+Epoch time: 27750.695 ms, per step time: 533.667 ms, avg loss: 1.843
+ckpt_0 | epoch: 205 acc: 0.9375, best acc is 0.9479166666666666
+Epoch:[205/300], step:[   52/   52], loss:[1.803/1.786], time:124.290 ms, lr:0.00024
+Epoch time: 26784.189 ms, per step time: 515.081 ms, avg loss: 1.786
+ckpt_0 | epoch: 206 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[206/300], step:[   52/   52], loss:[1.830/1.872], time:136.371 ms, lr:0.00023
+Epoch time: 27393.350 ms, per step time: 526.795 ms, avg loss: 1.872
+ckpt_0 | epoch: 207 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[207/300], step:[   52/   52], loss:[1.969/1.757], time:128.389 ms, lr:0.00023
+Epoch time: 27794.680 ms, per step time: 534.513 ms, avg loss: 1.757
+ckpt_0 | epoch: 208 acc: 0.9453125, best acc is 0.9479166666666666
+Epoch:[208/300], step:[   52/   52], loss:[1.406/1.812], time:129.174 ms, lr:0.00022
+Epoch time: 27567.924 ms, per step time: 530.152 ms, avg loss: 1.812
+ckpt_0 | epoch: 209 acc: 0.9479166666666666, best acc is 0.9479166666666666
+Epoch:[209/300], step:[   52/   52], loss:[1.695/1.914], time:129.889 ms, lr:0.00022
+Epoch time: 27608.323 ms, per step time: 530.929 ms, avg loss: 1.914
+ckpt_0 | epoch: 210 acc: 0.9479166666666666, best acc is 0.9479166666666666
+Epoch:[210/300], step:[   52/   52], loss:[0.980/1.829], time:130.726 ms, lr:0.00021
+Epoch time: 28286.323 ms, per step time: 543.968 ms, avg loss: 1.829
+ckpt_0 | epoch: 211 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[211/300], step:[   52/   52], loss:[2.509/1.780], time:128.803 ms, lr:0.00021
+Epoch time: 28609.527 ms, per step time: 550.183 ms, avg loss: 1.780
+ckpt_0 | epoch: 212 acc: 0.9322916666666666, best acc is 0.9479166666666666
+Epoch:[212/300], step:[   52/   52], loss:[1.219/1.798], time:129.057 ms, lr:0.00021
+Epoch time: 28556.371 ms, per step time: 549.161 ms, avg loss: 1.798
+ckpt_0 | epoch: 213 acc: 0.9296875, best acc is 0.9479166666666666
+Epoch:[213/300], step:[   52/   52], loss:[2.204/1.757], time:132.410 ms, lr:0.00020
+Epoch time: 28677.664 ms, per step time: 551.494 ms, avg loss: 1.757
+ckpt_0 | epoch: 214 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[214/300], step:[   52/   52], loss:[2.111/1.749], time:125.172 ms, lr:0.00020
+Epoch time: 27266.281 ms, per step time: 524.352 ms, avg loss: 1.749
+ckpt_0 | epoch: 215 acc: 0.9322916666666666, best acc is 0.9479166666666666
+Epoch:[215/300], step:[   52/   52], loss:[1.974/1.848], time:123.668 ms, lr:0.00019
+Epoch time: 27316.513 ms, per step time: 525.318 ms, avg loss: 1.848
+ckpt_0 | epoch: 216 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[216/300], step:[   52/   52], loss:[1.868/1.828], time:129.358 ms, lr:0.00019
+Epoch time: 26472.967 ms, per step time: 509.096 ms, avg loss: 1.828
+ckpt_0 | epoch: 217 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[217/300], step:[   52/   52], loss:[1.780/1.828], time:131.195 ms, lr:0.00019
+Epoch time: 26084.127 ms, per step time: 501.618 ms, avg loss: 1.828
+ckpt_0 | epoch: 218 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[218/300], step:[   52/   52], loss:[1.594/1.861], time:132.266 ms, lr:0.00018
+Epoch time: 26862.315 ms, per step time: 516.583 ms, avg loss: 1.861
+ckpt_0 | epoch: 219 acc: 0.9427083333333334, best acc is 0.9479166666666666
+Epoch:[219/300], step:[   52/   52], loss:[1.434/1.773], time:4783.724 ms, lr:0.00018
+Epoch time: 31537.729 ms, per step time: 606.495 ms, avg loss: 1.773
+ckpt_0 | epoch: 220 acc: 0.9348958333333334, best acc is 0.9479166666666666
+Epoch:[220/300], step:[   52/   52], loss:[1.538/1.776], time:131.107 ms, lr:0.00017
+Epoch time: 23180.670 ms, per step time: 445.782 ms, avg loss: 1.776
+ckpt_0 | epoch: 221 acc: 0.9401041666666666, best acc is 0.9479166666666666
+Epoch:[221/300], step:[   52/   52], loss:[1.191/1.872], time:131.052 ms, lr:0.00017
+Epoch time: 27556.037 ms, per step time: 529.924 ms, avg loss: 1.872
+ckpt_0 | epoch: 222 acc: 0.9296875, best acc is 0.9479166666666666
+Epoch:[222/300], step:[   52/   52], loss:[1.613/1.951], time:132.560 ms, lr:0.00017
+Epoch time: 26689.799 ms, per step time: 513.265 ms, avg loss: 1.951
+ckpt_0 | epoch: 223 acc: 0.9427083333333334, best acc is 0.9479166666666666
+Epoch:[223/300], step:[   52/   52], loss:[1.302/1.768], time:128.558 ms, lr:0.00016
+Epoch time: 26967.094 ms, per step time: 518.598 ms, avg loss: 1.768
+ckpt_0 | epoch: 224 acc: 0.9427083333333334, best acc is 0.9479166666666666
+Epoch:[224/300], step:[   52/   52], loss:[1.718/1.828], time:127.662 ms, lr:0.00016
+Epoch time: 26501.025 ms, per step time: 509.635 ms, avg loss: 1.828
+ckpt_0 | epoch: 225 acc: 0.9375, best acc is 0.9479166666666666
+Epoch:[225/300], step:[   52/   52], loss:[1.936/1.847], time:131.436 ms, lr:0.00015
+Epoch time: 27971.474 ms, per step time: 537.913 ms, avg loss: 1.847
+ckpt_0 | epoch: 226 acc: 0.9453125, best acc is 0.9479166666666666
+Epoch:[226/300], step:[   52/   52], loss:[1.105/1.862], time:127.222 ms, lr:0.00015
+Epoch time: 28234.933 ms, per step time: 542.979 ms, avg loss: 1.862
+ckpt_0 | epoch: 227 acc: 0.9505208333333334, best acc is 0.9505208333333334
+Epoch:[227/300], step:[   52/   52], loss:[1.818/1.678], time:142.591 ms, lr:0.00015
+Epoch time: 23847.790 ms, per step time: 458.611 ms, avg loss: 1.678
+ckpt_0 | epoch: 228 acc: 0.9401041666666666, best acc is 0.9505208333333334
+Epoch:[228/300], step:[   52/   52], loss:[1.889/1.750], time:124.965 ms, lr:0.00014
+Epoch time: 27976.705 ms, per step time: 538.014 ms, avg loss: 1.750
+ckpt_0 | epoch: 229 acc: 0.953125, best acc is 0.953125
+Epoch:[229/300], step:[   52/   52], loss:[1.823/1.938], time:127.758 ms, lr:0.00014
+Epoch time: 22958.862 ms, per step time: 441.517 ms, avg loss: 1.938
+ckpt_0 | epoch: 230 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[230/300], step:[   52/   52], loss:[2.364/1.767], time:128.077 ms, lr:0.00014
+Epoch time: 28402.798 ms, per step time: 546.208 ms, avg loss: 1.767
+ckpt_0 | epoch: 231 acc: 0.9348958333333334, best acc is 0.953125
+Epoch:[231/300], step:[   52/   52], loss:[2.171/1.805], time:124.052 ms, lr:0.00013
+Epoch time: 27942.489 ms, per step time: 537.356 ms, avg loss: 1.805
+ckpt_0 | epoch: 232 acc: 0.9348958333333334, best acc is 0.953125
+Epoch:[232/300], step:[   52/   52], loss:[2.231/1.708], time:127.537 ms, lr:0.00013
+Epoch time: 26986.000 ms, per step time: 518.962 ms, avg loss: 1.708
+ckpt_0 | epoch: 233 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[233/300], step:[   52/   52], loss:[1.852/1.862], time:139.657 ms, lr:0.00013
+Epoch time: 27302.845 ms, per step time: 525.055 ms, avg loss: 1.862
+ckpt_0 | epoch: 234 acc: 0.9375, best acc is 0.953125
+Epoch:[234/300], step:[   52/   52], loss:[1.885/1.827], time:131.682 ms, lr:0.00012
+Epoch time: 27087.167 ms, per step time: 520.907 ms, avg loss: 1.827
+ckpt_0 | epoch: 235 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[235/300], step:[   52/   52], loss:[1.050/1.743], time:132.805 ms, lr:0.00012
+Epoch time: 26722.171 ms, per step time: 513.888 ms, avg loss: 1.743
+ckpt_0 | epoch: 236 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[236/300], step:[   52/   52], loss:[1.906/1.884], time:129.293 ms, lr:0.00012
+Epoch time: 26602.237 ms, per step time: 511.581 ms, avg loss: 1.884
+ckpt_0 | epoch: 237 acc: 0.9453125, best acc is 0.953125
+Epoch:[237/300], step:[   52/   52], loss:[0.924/1.779], time:132.347 ms, lr:0.00011
+Epoch time: 27299.499 ms, per step time: 524.990 ms, avg loss: 1.779
+ckpt_0 | epoch: 238 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[238/300], step:[   52/   52], loss:[2.253/1.761], time:128.456 ms, lr:0.00011
+Epoch time: 28542.155 ms, per step time: 548.888 ms, avg loss: 1.761
+ckpt_0 | epoch: 239 acc: 0.9375, best acc is 0.953125
+Epoch:[239/300], step:[   52/   52], loss:[1.954/1.750], time:4075.232 ms, lr:0.00011
+Epoch time: 31148.309 ms, per step time: 599.006 ms, avg loss: 1.750
+ckpt_0 | epoch: 240 acc: 0.9322916666666666, best acc is 0.953125
+Epoch:[240/300], step:[   52/   52], loss:[2.023/1.738], time:138.103 ms, lr:0.00010
+Epoch time: 23682.101 ms, per step time: 455.425 ms, avg loss: 1.738
+ckpt_0 | epoch: 241 acc: 0.9453125, best acc is 0.953125
+Epoch:[241/300], step:[   52/   52], loss:[1.721/1.768], time:124.891 ms, lr:0.00010
+Epoch time: 27302.779 ms, per step time: 525.053 ms, avg loss: 1.768
+ckpt_0 | epoch: 242 acc: 0.9348958333333334, best acc is 0.953125
+Epoch:[242/300], step:[   52/   52], loss:[1.533/1.837], time:139.435 ms, lr:0.00010
+Epoch time: 28224.767 ms, per step time: 542.784 ms, avg loss: 1.837
+ckpt_0 | epoch: 243 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[243/300], step:[   52/   52], loss:[2.058/1.726], time:127.840 ms, lr:0.00010
+Epoch time: 27453.287 ms, per step time: 527.948 ms, avg loss: 1.726
+ckpt_0 | epoch: 244 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[244/300], step:[   52/   52], loss:[1.871/1.789], time:132.696 ms, lr:0.00009
+Epoch time: 27386.751 ms, per step time: 526.668 ms, avg loss: 1.789
+ckpt_0 | epoch: 245 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[245/300], step:[   52/   52], loss:[1.257/1.790], time:128.142 ms, lr:0.00009
+Epoch time: 26978.433 ms, per step time: 518.816 ms, avg loss: 1.790
+ckpt_0 | epoch: 246 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[246/300], step:[   52/   52], loss:[1.638/1.800], time:127.419 ms, lr:0.00009
+Epoch time: 26975.372 ms, per step time: 518.757 ms, avg loss: 1.800
+ckpt_0 | epoch: 247 acc: 0.9375, best acc is 0.953125
+Epoch:[247/300], step:[   52/   52], loss:[1.785/1.648], time:129.194 ms, lr:0.00008
+Epoch time: 27135.608 ms, per step time: 521.839 ms, avg loss: 1.648
+ckpt_0 | epoch: 248 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[248/300], step:[   52/   52], loss:[1.865/1.698], time:128.614 ms, lr:0.00008
+Epoch time: 28100.880 ms, per step time: 540.402 ms, avg loss: 1.698
+ckpt_0 | epoch: 249 acc: 0.953125, best acc is 0.953125
+Epoch:[249/300], step:[   52/   52], loss:[1.422/1.687], time:128.398 ms, lr:0.00008
+Epoch time: 27981.848 ms, per step time: 538.112 ms, avg loss: 1.687
+ckpt_0 | epoch: 250 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[250/300], step:[   52/   52], loss:[2.213/1.757], time:135.397 ms, lr:0.00008
+Epoch time: 27590.315 ms, per step time: 530.583 ms, avg loss: 1.757
+ckpt_0 | epoch: 251 acc: 0.9505208333333334, best acc is 0.953125
+Epoch:[251/300], step:[   52/   52], loss:[1.786/1.791], time:134.375 ms, lr:0.00007
+Epoch time: 26643.475 ms, per step time: 512.375 ms, avg loss: 1.791
+ckpt_0 | epoch: 252 acc: 0.9453125, best acc is 0.953125
+Epoch:[252/300], step:[   52/   52], loss:[1.910/1.784], time:128.027 ms, lr:0.00007
+Epoch time: 27393.834 ms, per step time: 526.805 ms, avg loss: 1.784
+ckpt_0 | epoch: 253 acc: 0.9453125, best acc is 0.953125
+Epoch:[253/300], step:[   52/   52], loss:[1.790/1.738], time:128.890 ms, lr:0.00007
+Epoch time: 27922.637 ms, per step time: 536.974 ms, avg loss: 1.738
+ckpt_0 | epoch: 254 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[254/300], step:[   52/   52], loss:[1.169/1.799], time:135.305 ms, lr:0.00007
+Epoch time: 27806.918 ms, per step time: 534.748 ms, avg loss: 1.799
+ckpt_0 | epoch: 255 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[255/300], step:[   52/   52], loss:[1.688/1.803], time:125.622 ms, lr:0.00006
+Epoch time: 27489.425 ms, per step time: 528.643 ms, avg loss: 1.803
+ckpt_0 | epoch: 256 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[256/300], step:[   52/   52], loss:[0.984/1.757], time:141.694 ms, lr:0.00006
+Epoch time: 28137.072 ms, per step time: 541.098 ms, avg loss: 1.757
+ckpt_0 | epoch: 257 acc: 0.9375, best acc is 0.953125
+Epoch:[257/300], step:[   52/   52], loss:[1.040/1.742], time:132.936 ms, lr:0.00006
+Epoch time: 26888.187 ms, per step time: 517.081 ms, avg loss: 1.742
+ckpt_0 | epoch: 258 acc: 0.9375, best acc is 0.953125
+Epoch:[258/300], step:[   52/   52], loss:[1.780/1.690], time:130.201 ms, lr:0.00006
+Epoch time: 26574.407 ms, per step time: 511.046 ms, avg loss: 1.690
+ckpt_0 | epoch: 259 acc: 0.9375, best acc is 0.953125
+Epoch:[259/300], step:[   52/   52], loss:[1.709/1.691], time:5067.300 ms, lr:0.00005
+Epoch time: 31773.429 ms, per step time: 611.027 ms, avg loss: 1.691
+ckpt_0 | epoch: 260 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[260/300], step:[   52/   52], loss:[1.144/1.799], time:130.006 ms, lr:0.00005
+Epoch time: 23290.926 ms, per step time: 447.902 ms, avg loss: 1.799
+ckpt_0 | epoch: 261 acc: 0.9453125, best acc is 0.953125
+Epoch:[261/300], step:[   52/   52], loss:[1.721/1.846], time:129.627 ms, lr:0.00005
+Epoch time: 26897.403 ms, per step time: 517.258 ms, avg loss: 1.846
+ckpt_0 | epoch: 262 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[262/300], step:[   52/   52], loss:[1.978/1.762], time:127.558 ms, lr:0.00005
+Epoch time: 26548.877 ms, per step time: 510.555 ms, avg loss: 1.762
+ckpt_0 | epoch: 263 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[263/300], step:[   52/   52], loss:[1.893/1.758], time:122.356 ms, lr:0.00005
+Epoch time: 26458.541 ms, per step time: 508.818 ms, avg loss: 1.758
+ckpt_0 | epoch: 264 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[264/300], step:[   52/   52], loss:[1.740/1.749], time:118.171 ms, lr:0.00004
+Epoch time: 26861.179 ms, per step time: 516.561 ms, avg loss: 1.749
+ckpt_0 | epoch: 265 acc: 0.9453125, best acc is 0.953125
+Epoch:[265/300], step:[   52/   52], loss:[1.446/1.694], time:125.391 ms, lr:0.00004
+Epoch time: 26340.118 ms, per step time: 506.541 ms, avg loss: 1.694
+ckpt_0 | epoch: 266 acc: 0.9505208333333334, best acc is 0.953125
+Epoch:[266/300], step:[   52/   52], loss:[2.484/1.793], time:126.494 ms, lr:0.00004
+Epoch time: 27811.076 ms, per step time: 534.828 ms, avg loss: 1.793
+ckpt_0 | epoch: 267 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[267/300], step:[   52/   52], loss:[1.025/1.735], time:122.724 ms, lr:0.00004
+Epoch time: 28665.718 ms, per step time: 551.264 ms, avg loss: 1.735
+ckpt_0 | epoch: 268 acc: 0.9453125, best acc is 0.953125
+Epoch:[268/300], step:[   52/   52], loss:[2.125/1.750], time:124.864 ms, lr:0.00004
+Epoch time: 27371.354 ms, per step time: 526.372 ms, avg loss: 1.750
+ckpt_0 | epoch: 269 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[269/300], step:[   52/   52], loss:[1.748/1.790], time:122.511 ms, lr:0.00004
+Epoch time: 27049.395 ms, per step time: 520.181 ms, avg loss: 1.790
+ckpt_0 | epoch: 270 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[270/300], step:[   52/   52], loss:[1.888/1.835], time:128.417 ms, lr:0.00003
+Epoch time: 28213.497 ms, per step time: 542.567 ms, avg loss: 1.835
+ckpt_0 | epoch: 271 acc: 0.9453125, best acc is 0.953125
+Epoch:[271/300], step:[   52/   52], loss:[1.937/1.832], time:125.353 ms, lr:0.00003
+Epoch time: 27060.865 ms, per step time: 520.401 ms, avg loss: 1.832
+ckpt_0 | epoch: 272 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[272/300], step:[   52/   52], loss:[1.876/1.737], time:127.435 ms, lr:0.00003
+Epoch time: 26731.844 ms, per step time: 514.074 ms, avg loss: 1.737
+ckpt_0 | epoch: 273 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[273/300], step:[   52/   52], loss:[1.485/1.780], time:122.228 ms, lr:0.00003
+Epoch time: 27765.387 ms, per step time: 533.950 ms, avg loss: 1.780
+ckpt_0 | epoch: 274 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[274/300], step:[   52/   52], loss:[2.441/1.684], time:130.301 ms, lr:0.00003
+Epoch time: 27389.230 ms, per step time: 526.716 ms, avg loss: 1.684
+ckpt_0 | epoch: 275 acc: 0.953125, best acc is 0.953125
+Epoch:[275/300], step:[   52/   52], loss:[2.250/1.762], time:122.523 ms, lr:0.00003
+Epoch time: 26577.706 ms, per step time: 511.110 ms, avg loss: 1.762
+ckpt_0 | epoch: 276 acc: 0.9505208333333334, best acc is 0.953125
+Epoch:[276/300], step:[   52/   52], loss:[1.983/1.745], time:125.030 ms, lr:0.00003
+Epoch time: 28330.429 ms, per step time: 544.816 ms, avg loss: 1.745
+ckpt_0 | epoch: 277 acc: 0.9453125, best acc is 0.953125
+Epoch:[277/300], step:[   52/   52], loss:[1.391/1.748], time:122.813 ms, lr:0.00002
+Epoch time: 27350.079 ms, per step time: 525.963 ms, avg loss: 1.748
+ckpt_0 | epoch: 278 acc: 0.9453125, best acc is 0.953125
+Epoch:[278/300], step:[   52/   52], loss:[1.045/1.748], time:125.698 ms, lr:0.00002
+Epoch time: 27623.599 ms, per step time: 531.223 ms, avg loss: 1.748
+ckpt_0 | epoch: 279 acc: 0.9453125, best acc is 0.953125
+Epoch:[279/300], step:[   52/   52], loss:[1.774/1.745], time:5370.679 ms, lr:0.00002
+Epoch time: 32989.140 ms, per step time: 634.407 ms, avg loss: 1.745
+ckpt_0 | epoch: 280 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[280/300], step:[   52/   52], loss:[2.163/1.810], time:131.015 ms, lr:0.00002
+Epoch time: 22808.237 ms, per step time: 438.620 ms, avg loss: 1.810
+ckpt_0 | epoch: 281 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[281/300], step:[   52/   52], loss:[1.809/1.681], time:127.623 ms, lr:0.00002
+Epoch time: 26788.961 ms, per step time: 515.172 ms, avg loss: 1.681
+ckpt_0 | epoch: 282 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[282/300], step:[   52/   52], loss:[1.422/1.757], time:132.892 ms, lr:0.00002
+Epoch time: 27831.136 ms, per step time: 535.214 ms, avg loss: 1.757
+ckpt_0 | epoch: 283 acc: 0.9505208333333334, best acc is 0.953125
+Epoch:[283/300], step:[   52/   52], loss:[1.981/1.815], time:122.720 ms, lr:0.00002
+Epoch time: 28447.127 ms, per step time: 547.060 ms, avg loss: 1.815
+ckpt_0 | epoch: 284 acc: 0.9453125, best acc is 0.953125
+Epoch:[284/300], step:[   52/   52], loss:[1.183/1.706], time:131.612 ms, lr:0.00002
+Epoch time: 27403.428 ms, per step time: 526.989 ms, avg loss: 1.706
+ckpt_0 | epoch: 285 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[285/300], step:[   52/   52], loss:[2.142/1.732], time:132.117 ms, lr:0.00002
+Epoch time: 27760.517 ms, per step time: 533.856 ms, avg loss: 1.732
+ckpt_0 | epoch: 286 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[286/300], step:[   52/   52], loss:[2.095/1.835], time:131.567 ms, lr:0.00002
+Epoch time: 28147.077 ms, per step time: 541.290 ms, avg loss: 1.835
+ckpt_0 | epoch: 287 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[287/300], step:[   52/   52], loss:[2.057/1.754], time:131.512 ms, lr:0.00001
+Epoch time: 28259.418 ms, per step time: 543.450 ms, avg loss: 1.754
+ckpt_0 | epoch: 288 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[288/300], step:[   52/   52], loss:[2.181/1.760], time:132.080 ms, lr:0.00001
+Epoch time: 28206.366 ms, per step time: 542.430 ms, avg loss: 1.760
+ckpt_0 | epoch: 289 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[289/300], step:[   52/   52], loss:[1.933/1.782], time:132.766 ms, lr:0.00001
+Epoch time: 27984.380 ms, per step time: 538.161 ms, avg loss: 1.782
+ckpt_0 | epoch: 290 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[290/300], step:[   52/   52], loss:[1.838/1.636], time:133.941 ms, lr:0.00001
+Epoch time: 28310.819 ms, per step time: 544.439 ms, avg loss: 1.636
+ckpt_0 | epoch: 291 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[291/300], step:[   52/   52], loss:[1.684/1.803], time:126.010 ms, lr:0.00001
+Epoch time: 27348.477 ms, per step time: 525.932 ms, avg loss: 1.803
+ckpt_0 | epoch: 292 acc: 0.9453125, best acc is 0.953125
+Epoch:[292/300], step:[   52/   52], loss:[1.824/1.729], time:130.791 ms, lr:0.00001
+Epoch time: 28235.482 ms, per step time: 542.990 ms, avg loss: 1.729
+ckpt_0 | epoch: 293 acc: 0.9479166666666666, best acc is 0.953125
+Epoch:[293/300], step:[   52/   52], loss:[2.268/1.749], time:128.465 ms, lr:0.00001
+Epoch time: 27476.196 ms, per step time: 528.388 ms, avg loss: 1.749
+ckpt_0 | epoch: 294 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[294/300], step:[   52/   52], loss:[1.154/1.742], time:128.818 ms, lr:0.00001
+Epoch time: 27877.286 ms, per step time: 536.102 ms, avg loss: 1.742
+ckpt_0 | epoch: 295 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[295/300], step:[   52/   52], loss:[1.134/1.802], time:129.642 ms, lr:0.00001
+Epoch time: 28605.439 ms, per step time: 550.105 ms, avg loss: 1.802
+ckpt_0 | epoch: 296 acc: 0.9453125, best acc is 0.953125
+Epoch:[296/300], step:[   52/   52], loss:[1.830/1.805], time:130.050 ms, lr:0.00001
+Epoch time: 27152.668 ms, per step time: 522.167 ms, avg loss: 1.805
+ckpt_0 | epoch: 297 acc: 0.9453125, best acc is 0.953125
+Epoch:[297/300], step:[   52/   52], loss:[1.215/1.916], time:127.505 ms, lr:0.00001
+Epoch time: 26862.063 ms, per step time: 516.578 ms, avg loss: 1.916
+ckpt_0 | epoch: 298 acc: 0.9427083333333334, best acc is 0.953125
+Epoch:[298/300], step:[   52/   52], loss:[1.790/1.623], time:123.851 ms, lr:0.00001
+Epoch time: 26982.633 ms, per step time: 518.897 ms, avg loss: 1.623
+ckpt_0 | epoch: 299 acc: 0.9401041666666666, best acc is 0.953125
+Epoch:[299/300], step:[   52/   52], loss:[1.770/1.606], time:4681.307 ms, lr:0.00001
+Epoch time: 31778.372 ms, per step time: 611.123 ms, avg loss: 1.606
+ckpt_0 | epoch: 300 acc: 0.9427083333333334, best acc is 0.953125
